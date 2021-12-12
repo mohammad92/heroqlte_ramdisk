@@ -1,24 +1,25 @@
 #
 # ADDITIONAL_DEFAULT_PROPERTIES
 #
+persist.radio.snapshot_enabled=1
+persist.radio.snapshot_timer=22
+persist.eons.enabled=false
+telephony.lteOnCdmaDevice=1
+persist.radio.new.profid=true
 rild.libpath=/system/lib64/libsec-ril.so
 persist.cne.feature=0
 persist.radio.lte_vrte_ltd=1
 persist.radio.apm_sim_not_pwdn=1
 persist.radio.add_power_save=1
 persist.data.netmgrd.qos.enable=true
+persist.data.ibfc.enable=true
 persist.data.mode=concurrent
 persist.data.dpm.enable=true
 persist.data.dropssdp=false
-persist.data.ibfc.enable=true
-telephony.lteOnCdmaDevice=0
-persist.eons.enabled=true
-persist.radio.new.profid=true
-persist.security.ams.enforcing=3
+persist.security.ams.enforcing=1
 ro.secure=1
 ro.allow.mock.location=0
-ro.debuggable=0
-ro.adb.secure=1
+ro.debuggable=1
 ro.zygote=zygote64_32
 dalvik.vm.image-dex2oat-Xms=64m
 dalvik.vm.image-dex2oat-Xmx=64m
@@ -26,10 +27,10 @@ dalvik.vm.dex2oat-Xms=64m
 dalvik.vm.dex2oat-Xmx=512m
 ro.dalvik.vm.native.bridge=0
 debug.atrace.tags.enableflags=0
-persist.sys.usb.config=mtp
+persist.sys.usb.config=mtp,adb
 #
 # BOOTIMAGE_BUILD_PROPERTIES
 #
-ro.bootimage.build.date=Mon Mar 13 17:41:54 KST 2017
-ro.bootimage.build.date.utc=1489394514
-ro.bootimage.build.fingerprint=samsung/heroqlteue/heroqlteue:6.0.1/MMB29M/G930UUES4AQC1:user/test-keys
+ro.bootimage.build.date=Mon Jan 20 11:14:41 KST 2020
+ro.bootimage.build.date.utc=1579486481
+ro.bootimage.build.fingerprint=Verizon/heroqltevzw/heroqltevzw:6.0.1/MMB29M/FA60_G930AUCUBATA1:user/test-keys

@@ -37,7 +37,7 @@ subsystem adf
 /dev/ttyMSM0              0600   bluetooth  bluetooth
 /dev/uhid                 0660   system     net_bt_stack
 /dev/uinput               0660   system     net_bt_stack
-/dev/alarm                0664   system     radio
+/dev/alarm                0660   system     radio
 /dev/power_on_alarm       0660   system     radio
 /dev/rtc0                 0640   system     system
 /dev/tty0                 0660   root       system
